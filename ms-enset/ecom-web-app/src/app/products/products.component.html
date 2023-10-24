@@ -1,13 +1,19 @@
 <div class="container">
-  <table class="table" *ngIf="products">
-    <thead>
+  <table class="table table-striped table-bordered custom-table" *ngIf="products">
+    <thead class="custom-header">
     <tr>
-      <th>ID</th><th>Name</th><th>Price</th><th>Quantity</th>
+      <th class="custom-text custom-header-cell-background">ID</th>
+      <th class="custom-text custom-header-cell-background">Name</th>
+      <th class="custom-text custom-header-cell-background">Price</th>
+      <th class="custom-text custom-header-cell-background">Quantity</th>
     </tr>
     </thead>
     <tbody>
     <tr *ngFor="let p of products._embedded.products">
-      <td>{{p.id}}</td><td>{{p.name}}</td><td>{{p.price}}</td><td>{{p.quantity}}</td>
+      <td class="custom-text">{{p.id}}</td>
+      <td class="custom-text">{{p.name}}</td>
+      <td class="custom-text">{{p.price | number: '.2'}} DH</td>
+      <td class="custom-text">{{p.quantity}}</td>
     </tr>
     </tbody>
   </table>

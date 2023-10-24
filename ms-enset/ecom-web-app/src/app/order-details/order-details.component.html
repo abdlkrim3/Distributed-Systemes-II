@@ -2,44 +2,50 @@
   <div class="row">
     <div class="col-md-6">
       <div class="card">
-        <div class="card-header"> Order ID : {{orderId}}</div>
-        <div class="card-body text-sm-start">
+        <div class="card-header custom-header">Order ID: {{orderId}}</div>
+        <div class="card-body custom-text text-sm-start">
           <ul class="list-group">
-            <li class="list-group-item">Order ID : {{orderDetails.id}}</li>
-            <li class="list-group-item">Date : {{orderDetails.createdAt | date : 'dd/MM/yyyy'}}</li>
-            <li class="list-group-item">Status : {{orderDetails.status}}</li>
-            <li class="list-group-item">Customer ID : {{orderDetails.customer.id}}</li>
-            <li class="list-group-item">Customer Name : {{orderDetails.customer.name}}</li>
-            <li class="list-group-item">Customer Email : {{orderDetails.customer.email}}</li>
+            <li class="list-group-item custom-text">Order ID: {{orderDetails.id}}</li>
+            <li class="list-group-item custom-text">Date: {{orderDetails.createdAt | date: 'dd/MM/yyyy'}}</li>
+            <li class="list-group-item custom-text">Status: {{orderDetails.status}}</li>
+            <li class="list-group-item custom-text">Customer ID: {{orderDetails.customer.id}}</li>
+            <li class="list-group-item custom-text">Customer Name: {{orderDetails.customer.name}}</li>
+            <li class="list-group-item custom-text">Customer Email: {{orderDetails.customer.email}}</li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="col-md-6"></div>
-    <div class="card">
-      <div class="card-header">Product Items : </div>
-      <div class="card-body">
-        <table class="table table-sm">
-          <thead>
-            <tr cclass="bg-dark text-white">
-              <th>Product ID</th><th>Product Name</th><th>Quantity</th><th>Price</th><th>Discount</th><th>Amount</th>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-header custom-header">Product Items:</div>
+        <div class="card-body">
+          <table class="table table-striped table-bordered custom-table">
+            <thead>
+            <tr class="bg-dark text-white">
+              <th class="custom-text">Product ID</th>
+              <th class="custom-text">Product Name</th>
+              <th class="custom-text">Quantity</th>
+              <th class="custom-text">Price</th>
+              <th class="custom-text">Discount</th>
+              <th class="custom-text">Amount</th>
             </tr>
-          </thead>
-          <tbody>
-          <tr *ngFor="let pi of orderDetails.productItems">
-            <td>{{pi.product.id}}</td>
-            <td>{{pi.product.name}}</td>
-            <td>{{pi.product.quantity}}</td>
-            <td >{{pi.product.price | number : '.2'}}    DH</td>
-            <td >{{pi.discount | number: '.2'}} </td>
-            <td >{{pi.amount | number: '.2' }} DH</td>
-          </tr>
-          <tr class="bg-dark text-white">
-            <td colspan="5" class="text-end">Total : </td>
-            <td >{{orderDetails.total | number: '.2'}} DH</td>
-          </tr>
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+            <tr *ngFor="let pi of orderDetails.productItems">
+              <td class="custom-text">{{pi.product.id}}</td>
+              <td class="custom-text">{{pi.product.name}}</td>
+              <td class="custom-text">{{pi.product.quantity}}</td>
+              <td class="custom-text">{{pi.product.price | number: '.2'}}</td>
+              <td class="custom-text">{{pi.discount | number: '.2'}}</td>
+              <td class="custom-text">{{pi.amount | number: '.2'}}</td>
+            </tr>
+            <tr class="bg-dark text-white custom-text custom-total-row">
+              <td colspan="5" class="text-end">Total:</td>
+              <td>{{orderDetails.total | number: '.2'}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>

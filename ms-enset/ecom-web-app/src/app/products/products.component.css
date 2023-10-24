@@ -1,0 +1,21 @@
+.custom-text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+
+.custom-header {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.custom-header-cell-background {
+  background-color: #808080; /* Change the color to your desired background color code */
+  color: #fff; /* Text color for these header cells */
+}
+

@@ -1,15 +1,22 @@
 <div class="container">
-  <table class="table" *ngIf="orders">
-    <thead>
+  <table class="table table-striped table-bordered custom-table" *ngIf="orders">
+    <thead class="custom-header">
     <tr>
-      <th>ID</th><th>Date</th><th>Status</th><th>CustomerID</th>
+      <th class="custom-text custom-header-cell-background">ID</th>
+      <th class="custom-text custom-header-cell-background">Date</th>
+      <th class="custom-text custom-header-cell-background">Status</th>
+      <th class="custom-text custom-header-cell-background">Customer ID</th>
+      <th class="custom-text custom-header-cell-background">Actions</th>
     </tr>
     </thead>
     <tbody>
     <tr *ngFor="let o of orders._embedded.orders">
-      <td>{{o.id}}</td><td>{{o.createdAt|date:'dd/MM/yyyy'}}</td><td>{{o.status}}</td><td>{{o.customerId}}</td>
+      <td class="custom-text">{{o.id}}</td>
+      <td class="custom-text">{{o.createdAt | date: 'dd/MM/yyyy'}}</td>
+      <td class="custom-text">{{o.status}}</td>
+      <td class="custom-text">{{o.customerId}}</td>
       <td>
-        <button class="btn btn-success" (click)="getOrederDetails(o)">Orders Details</button>
+        <button class="btn btn-custom" (click)="getOrederDetails(o)">Order Details</button>
       </td>
     </tr>
     </tbody>
