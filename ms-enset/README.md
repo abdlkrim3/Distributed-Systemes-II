@@ -5,8 +5,12 @@
 <h3>Project Architecture</h3>
 <img src="captures/Capture1.png"></img>
 <img src="captures/capture2.png"></img>
-<h3>Frontend</h3>
+<h2><b>Frontend<b></h2>
+<h3>Product Interface : </h3>
 <img src="captures/capture3.png"></img>
+<h3>Customer Interface : </h3>
 <img src="captures/capture4.png"></img>
+<h3>Order Interface : </h3>
 <img src="captures/capture5.png"></img>
+<h3>Order Details Interface : </h3>
 <img src="captures/Capture6.png"></img>
