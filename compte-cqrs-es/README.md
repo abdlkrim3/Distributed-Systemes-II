@@ -20,7 +20,7 @@
 <h3>Test : Credit Account Comand</h3>
 <img src="captures/Capture8.png"></img>
 <h3>Test : Debit Account Comand</h3>
-<img src="captures/Capture9 .png"></img>
+<img src="captures/Capture9.png"></img>
 <h2>EventStore Data Base</h2>
 <h3>Accounts</h3>
 <img src="captures/Capture10.png"></img>
