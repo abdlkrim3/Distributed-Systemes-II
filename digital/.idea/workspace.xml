@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f274e18-d935-46e0-90ca-f7d4c0ae1794" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/commands/commands.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/dtos/dtos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/events/events.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/queries/queries.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/java/org/sdia/customercommandsdia/CustomerCommandSdiaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/java/org/sdia/customercommandsdia/aggregats/CustomerAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/java/org/sdia/customercommandsdia/controllers/CustomerCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/test/java/org/sdia/customercommandsdia/CustomerCommandSdiaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/CustomerQuerySideApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/controllers/CustomerQueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/repositories/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/services/CustomerCommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/services/CustomerQueryHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-query-side/src/test/java/org/sdia/customerqueryside/CustomerQuerySideApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sdia/digital/DigitalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sdia/digital/DigitalApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Y7in2WxBPz2qJyTBxtlektqOvO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "C:/Users/lenovo/IdeaProjects/Distributed-Systemes-II/digital/core-api/src/main/java/org/sdia/events",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.language",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\IdeaProjects\Distributed-Systemes-II\digital\core-api\src\main\java\org\sdia\events" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomerQuerySideApplication">
+    <configuration name="CustomerCommandSdiaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer-command-sdia" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sdia.customercommandsdia.CustomerCommandSdiaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerQuerySideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="customer-query-side" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sdia.customerqueryside.CustomerQuerySideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigitalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="digital" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.sdia.digital.DigitalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f274e18-d935-46e0-90ca-f7d4c0ae1794" name="Changes" comment="" />
+      <created>1699883185943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699883185943</updated>
+      <workItem from="1699883187356" duration="4175000" />
+      <workItem from="1699890406028" duration="16377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
