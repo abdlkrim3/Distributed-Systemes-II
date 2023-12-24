@@ -5,55 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f274e18-d935-46e0-90ca-f7d4c0ae1794" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/commands/commands.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/dtos/dtos.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/events/events.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-api/src/main/java/org/sdia/queries/queries.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/java/org/sdia/customercommandsdia/CustomerCommandSdiaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/java/org/sdia/customercommandsdia/aggregats/CustomerAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/java/org/sdia/customercommandsdia/controllers/CustomerCommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-command-sdia/src/test/java/org/sdia/customercommandsdia/CustomerCommandSdiaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/CustomerQuerySideApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/controllers/CustomerQueryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/entities/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/repositories/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/services/CustomerCommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/java/org/sdia/customerqueryside/services/CustomerQueryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer-query-side/src/test/java/org/sdia/customerqueryside/CustomerQuerySideApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sdia/digital/DigitalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sdia/digital/DigitalApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captures/Capture9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +69,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -152,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699883185943</updated>
       <workItem from="1699883187356" duration="4175000" />
-      <workItem from="1699890406028" duration="16377000" />
+      <workItem from="1699890406028" duration="17561000" />
     </task>
     <servers />
   </component>
